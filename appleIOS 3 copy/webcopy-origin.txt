@@ -1,0 +1,124 @@
+Uri: https://plausible.io/js/script.js
+File Name: C:\Users\Locked Door\Desktop\unscripted-timesnews.web.app\js\script.js
+Content Type: application/javascript
+
+Uri: https://unscripted-timesnews.web.app/?gad_source=5&gad_campaignid=22882380466&gclid=EAIaIQobChMIxJij36j5jgMVHLE6BR1gpApxEAEYASAAEgJU_PD_BwE
+File Name: C:\Users\Locked Door\Desktop\unscripted-timesnews.web.app\index.htm
+Content Type: text/html
+
+Uri: https://unscripted-timesnews.web.app/css/Base.css
+File Name: C:\Users\Locked Door\Desktop\unscripted-timesnews.web.app\css\Base.css
+Content Type: text/css
+
+Uri: https://unscripted-timesnews.web.app/icon_reset_small.html
+File Name: C:\Users\Locked Door\Desktop\unscripted-timesnews.web.app\icon_reset_small.html.htm
+Content Type: text/html
+
+Uri: https://unscripted-timesnews.web.app/images/contact-us-hero.image.large_2x.jpg
+File Name: C:\Users\Locked Door\Desktop\unscripted-timesnews.web.app\images\contact-us-hero.image.large_2x.jpg
+Content Type: image/jpeg
+
+Uri: https://unscripted-timesnews.web.app/images/contact-us-hero.image.small_2x.jpg
+File Name: C:\Users\Locked Door\Desktop\unscripted-timesnews.web.app\images\contact-us-hero.image.small_2x.jpg
+Content Type: image/jpeg
+
+Uri: https://unscripted-timesnews.web.app/images/image_small.svg
+File Name: C:\Users\Locked Door\Desktop\unscripted-timesnews.web.app\images\image_small.svg
+Content Type: image/svg+xml
+
+Uri: https://unscripted-timesnews.web.app/images/image_small_1.svg
+File Name: C:\Users\Locked Door\Desktop\unscripted-timesnews.web.app\images\image_small_1.svg
+Content Type: image/svg+xml
+
+Uri: https://unscripted-timesnews.web.app/images/image_small_2.svg
+File Name: C:\Users\Locked Door\Desktop\unscripted-timesnews.web.app\images\image_small_2.svg
+Content Type: image/svg+xml
+
+Uri: https://unscripted-timesnews.web.app/images/image_small_3.svg
+File Name: C:\Users\Locked Door\Desktop\unscripted-timesnews.web.app\images\image_small_3.svg
+Content Type: image/svg+xml
+
+Uri: https://unscripted-timesnews.web.app/images/image_small_4.svg
+File Name: C:\Users\Locked Door\Desktop\unscripted-timesnews.web.app\images\image_small_4.svg
+Content Type: image/svg+xml
+
+Uri: https://unscripted-timesnews.web.app/images/image_small_5.svg
+File Name: C:\Users\Locked Door\Desktop\unscripted-timesnews.web.app\images\image_small_5.svg
+Content Type: image/svg+xml
+
+Uri: https://unscripted-timesnews.web.app/images/us.png
+File Name: C:\Users\Locked Door\Desktop\unscripted-timesnews.web.app\images\us.png
+Content Type: image/png
+
+Uri: https://unscripted-timesnews.web.app/image_large.html
+File Name: C:\Users\Locked Door\Desktop\unscripted-timesnews.web.app\image_large.html.htm
+Content Type: text/html
+
+Uri: https://unscripted-timesnews.web.app/image_large_1.html
+File Name: C:\Users\Locked Door\Desktop\unscripted-timesnews.web.app\image_large_1.html.htm
+Content Type: text/html
+
+Uri: https://unscripted-timesnews.web.app/image_large_2.html
+File Name: C:\Users\Locked Door\Desktop\unscripted-timesnews.web.app\image_large_2.html.htm
+Content Type: text/html
+
+Uri: https://unscripted-timesnews.web.app/image_large_3.html
+File Name: C:\Users\Locked Door\Desktop\unscripted-timesnews.web.app\image_large_3.html.htm
+Content Type: text/html
+
+Uri: https://unscripted-timesnews.web.app/image_large_4.html
+File Name: C:\Users\Locked Door\Desktop\unscripted-timesnews.web.app\image_large_4.html.htm
+Content Type: text/html
+
+Uri: https://unscripted-timesnews.web.app/image_large_5.html
+File Name: C:\Users\Locked Door\Desktop\unscripted-timesnews.web.app\image_large_5.html.htm
+Content Type: text/html
+
+Uri: https://unscripted-timesnews.web.app/image_large_6.html
+File Name: C:\Users\Locked Door\Desktop\unscripted-timesnews.web.app\image_large_6.html.htm
+Content Type: text/html
+
+Uri: https://unscripted-timesnews.web.app/image_large_7.html
+File Name: C:\Users\Locked Door\Desktop\unscripted-timesnews.web.app\image_large_7.html.htm
+Content Type: text/html
+
+Uri: https://unscripted-timesnews.web.app/image_large_8.html
+File Name: C:\Users\Locked Door\Desktop\unscripted-timesnews.web.app\image_large_8.html.htm
+Content Type: text/html
+
+Uri: https://unscripted-timesnews.web.app/image_large_9.html
+File Name: C:\Users\Locked Door\Desktop\unscripted-timesnews.web.app\image_large_9.html.htm
+Content Type: text/html
+
+Uri: https://unscripted-timesnews.web.app/image_small.html
+File Name: C:\Users\Locked Door\Desktop\unscripted-timesnews.web.app\image_small.html.htm
+Content Type: text/html
+
+Uri: https://unscripted-timesnews.web.app/image_small_1.html
+File Name: C:\Users\Locked Door\Desktop\unscripted-timesnews.web.app\image_small_1.html.htm
+Content Type: text/html
+
+Uri: https://unscripted-timesnews.web.app/image_small_2.html
+File Name: C:\Users\Locked Door\Desktop\unscripted-timesnews.web.app\image_small_2.html.htm
+Content Type: text/html
+
+Uri: https://unscripted-timesnews.web.app/image_small_3.html
+File Name: C:\Users\Locked Door\Desktop\unscripted-timesnews.web.app\image_small_3.html.htm
+Content Type: text/html
+
+Uri: https://unscripted-timesnews.web.app/js/jquery-1.12.0.min.js
+File Name: C:\Users\Locked Door\Desktop\unscripted-timesnews.web.app\js\jquery-1.12.0.min.js
+Content Type: text/javascript
+
+Uri: https://unscripted-timesnews.web.app/js/script.js
+File Name: C:\Users\Locked Door\Desktop\unscripted-timesnews.web.app\js\script-1.js
+Content Type: text/javascript
+
+Uri: https://unscripted-timesnews.web.app/js/text_tel.js
+File Name: C:\Users\Locked Door\Desktop\unscripted-timesnews.web.app\js\text_tel.js
+Content Type: text/javascript
+
+Uri: https://unscripted-timesnews.web.app/_families%253dSF%252bPro%252cv1_7CSF%252bPro%252bIcons%252cv1html.html
+File Name: C:\Users\Locked Door\Desktop\unscripted-timesnews.web.app\_families%3dSF%2bPro%2cv1_7CSF%2bPro%2bIcons%2cv1html.html.htm
+Content Type: text/html
+
