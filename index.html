@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zelda Car Repair | Reliable Auto Service</title>
+  <meta name="description" content="Zelda Car Repair provides dependable vehicle maintenance, diagnostics, brake service, oil changes, and general auto repair.">
+  <style>
+    :root{
+      --bg:#0d1117;
+      --panel:#151b23;
+      --card:#1b2430;
+      --accent:#f6b73c;
+      --accent2:#ffcf68;
+      --text:#f5f7fa;
+      --muted:#a9b2bf;
+      --line:#2a3442;
+      --max:1180px;
+    }
+    *{box-sizing:border-box;margin:0;padding:0}
+    html{scroll-behavior:smooth}
+    body{
+      font-family:Inter,Arial,Helvetica,sans-serif;
+      background:var(--bg);
+      color:var(--text);
+      line-height:1.6;
+    }
+    a{text-decoration:none;color:inherit}
+    img{max-width:100%;display:block}
+    .container{width:min(92%,var(--max));margin:auto}
+    header{
+      position:sticky;top:0;z-index:20;
+      background:rgba(13,17,23,.94);
+      backdrop-filter:blur(10px);
+      border-bottom:1px solid var(--line);
+    }
+    .nav{
+      min-height:76px;display:flex;align-items:center;justify-content:space-between;gap:24px
+    }
+    .logo{
+      font-size:1.35rem;font-weight:900;letter-spacing:.4px
+    }
+    .logo span{color:var(--accent)}
+    nav{display:flex;gap:26px;align-items:center}
+    nav a{color:var(--muted);font-weight:700;font-size:.95rem}
+    nav a:hover{color:var(--accent)}
+    .btn{
+      display:inline-flex;align-items:center;justify-content:center;
+      background:var(--accent);color:#141414;font-weight:900;
+      padding:13px 20px;border-radius:10px;transition:.2s ease;
+    }
+    .btn:hover{transform:translateY(-2px);background:var(--accent2)}
+    .btn-outline{
+      background:transparent;color:var(--text);border:1px solid var(--line)
+    }
+    .btn-outline:hover{border-color:var(--accent);color:var(--accent);background:transparent}
+    .hero{
+      min-height:78vh;display:grid;align-items:center;
+      background:
+        linear-gradient(90deg,rgba(13,17,23,.96) 0%,rgba(13,17,23,.78) 55%,rgba(13,17,23,.35) 100%),
+        url('https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?auto=format&fit=crop&w=1800&q=85') center/cover;
+      border-bottom:1px solid var(--line);
+    }
+    .hero-content{max-width:720px;padding:90px 0}
+    .eyebrow{
+      display:inline-block;color:var(--accent);font-weight:900;letter-spacing:1.6px;
+      text-transform:uppercase;font-size:.78rem;margin-bottom:15px
+    }
+    h1{font-size:clamp(2.8rem,7vw,5.6rem);line-height:.98;letter-spacing:-2px;margin-bottom:22px}
+    .hero p{color:#d2d8df;font-size:1.12rem;max-width:630px;margin-bottom:28px}
+    .hero-actions{display:flex;flex-wrap:wrap;gap:12px}
+    .stats{
+      background:var(--panel);border-bottom:1px solid var(--line)
+    }
+    .stats-grid{
+      display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line)
+    }
+    .stat{background:var(--panel);padding:25px;text-align:center}
+    .stat strong{display:block;color:var(--accent);font-size:1.6rem}
+    section{padding:90px 0}
+    .section-head{max-width:680px;margin-bottom:42px}
+    .section-head h2{font-size:clamp(2rem,4vw,3.1rem);line-height:1.05;margin-bottom:14px}
+    .section-head p{color:var(--muted)}
+    .services-grid{
+      display:grid;grid-template-columns:repeat(3,1fr);gap:20px
+    }
+    .card{
+      background:linear-gradient(180deg,#19212b,#131920);
+      border:1px solid var(--line);border-radius:16px;padding:28px
+    }
+    .icon{
+      width:50px;height:50px;border-radius:12px;background:rgba(246,183,60,.12);
+      color:var(--accent);display:grid;place-items:center;font-size:1.4rem;margin-bottom:18px
+    }
+    .card h3{font-size:1.25rem;margin-bottom:9px}
+    .card p{color:var(--muted)}
+    .about{background:var(--panel)}
+    .about-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:46px;align-items:center}
+    .about-img img{
+      width:100%;height:470px;object-fit:cover;border-radius:18px;border:1px solid var(--line)
+    }
+    .checks{display:grid;gap:14px;margin:24px 0 30px}
+    .check{display:flex;gap:12px;color:#d8dee8}
+    .check b{color:var(--accent)}
+    .why-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+    .why{
+      padding:24px;border-top:3px solid var(--accent);background:var(--panel);border-radius:10px
+    }
+    .why h3{margin-bottom:8px}
+    .why p{color:var(--muted);font-size:.95rem}
+    .contact-wrap{
+      display:grid;grid-template-columns:1fr 1fr;gap:24px;
+      background:linear-gradient(135deg,#1a222c,#10151c);
+      border:1px solid var(--line);border-radius:20px;padding:42px
+    }
+    .contact-wrap p{color:var(--muted)}
+    .contact-box{display:grid;gap:14px}
+    .contact-item{
+      padding:16px 18px;background:#0f141b;border:1px solid var(--line);border-radius:10px
+    }
+    .contact-item small{display:block;color:var(--muted);margin-bottom:3px}
+    footer{
+      border-top:1px solid var(--line);padding:30px 0;color:var(--muted);font-size:.9rem
+    }
+    .footer{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}
+    .menu-btn{
+      display:none;background:transparent;border:1px solid var(--line);color:var(--text);
+      border-radius:8px;padding:8px 11px;font-size:1.2rem
+    }
+    @media(max-width:900px){
+      nav{
+        display:none;position:absolute;left:0;right:0;top:76px;background:#0d1117;
+        padding:20px;width:100%;border-bottom:1px solid var(--line);flex-direction:column;align-items:flex-start
+      }
+      nav.open{display:flex}
+      .menu-btn{display:block}
+      .services-grid,.why-grid{grid-template-columns:repeat(2,1fr)}
+      .about-grid,.contact-wrap{grid-template-columns:1fr}
+    }
+    @media(max-width:620px){
+      .hero{min-height:70vh;background-position:62% center}
+      section{padding:70px 0}
+      .services-grid,.why-grid,.stats-grid{grid-template-columns:1fr}
+      .stat{padding:18px}
+      .about-img img{height:320px}
+      .contact-wrap{padding:26px}
+      h1{letter-spacing:-1px}
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container nav">
+      <a class="logo" href="#home">ZELDA <span>CAR REPAIR</span></a>
+      <button class="menu-btn" id="menuBtn" aria-label="Open navigation">☰</button>
+      <nav id="navMenu">
+        <a href="#home">Home</a>
+        <a href="#services">Services</a>
+        <a href="#about">About</a>
+        <a href="#why-us">Why Us</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="container">
+        <div class="hero-content">
+          <span class="eyebrow">Professional Auto Care</span>
+          <h1>Keep Your Car Running Strong.</h1>
+          <p>Zelda Car Repair delivers straightforward maintenance and repair services focused on safety, reliability, and clear communication.</p>
+          <div class="hero-actions">
+            <a class="btn" href="#contact">Request Service</a>
+            <a class="btn btn-outline" href="#services">View Services</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="stats">
+      <div class="container stats-grid">
+        <div class="stat"><strong>Reliable</strong><span>Vehicle Service</span></div>
+        <div class="stat"><strong>Clear</strong><span>Repair Communication</span></div>
+        <div class="stat"><strong>Focused</strong><span>On Your Safety</span></div>
+      </div>
+    </div>
+
+    <section id="services">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">What We Do</span>
+          <h2>Auto repair and maintenance for everyday drivers.</h2>
+          <p>From routine maintenance to common repair needs, our goal is to help keep your vehicle dependable and road-ready.</p>
+        </div>
+        <div class="services-grid">
+          <article class="card">
+            <div class="icon">🔧</div>
+            <h3>General Auto Repair</h3>
+            <p>Inspection and repair support for common mechanical issues affecting performance and reliability.</p>
+          </article>
+          <article class="card">
+            <div class="icon">🛢️</div>
+            <h3>Oil & Maintenance</h3>
+            <p>Routine maintenance services designed to support engine health and consistent vehicle performance.</p>
+          </article>
+          <article class="card">
+            <div class="icon">🛞</div>
+            <h3>Brake Service</h3>
+            <p>Brake inspections and service for worn components, unusual sounds, or changes in braking feel.</p>
+          </article>
+          <article class="card">
+            <div class="icon">⚙️</div>
+            <h3>Diagnostics</h3>
+            <p>Vehicle checks to help identify the source of warning lights, performance concerns, and drivability issues.</p>
+          </article>
+          <article class="card">
+            <div class="icon">🔋</div>
+            <h3>Battery & Electrical</h3>
+            <p>Basic battery and electrical system checks for starting problems and common power-related concerns.</p>
+          </article>
+          <article class="card">
+            <div class="icon">🚗</div>
+            <h3>Vehicle Inspections</h3>
+            <p>General inspections to identify visible wear, maintenance needs, and areas that may require attention.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="container about-grid">
+        <div class="about-img">
+          <img src="https://images.unsplash.com/photo-1625047509248-ec889cbff17f?auto=format&fit=crop&w=1200&q=85" alt="Mechanic working on a vehicle in a repair shop">
+        </div>
+        <div>
+          <span class="eyebrow">About Zelda Car Repair</span>
+          <h2>Practical service. Straightforward answers.</h2>
+          <p style="color:var(--muted);margin-top:16px;">We believe car repair should be easier to understand. Our approach is centered on careful inspection, clear explanations, and service recommendations based on the vehicle's actual condition.</p>
+          <div class="checks">
+            <div class="check"><b>✓</b><span>Clear explanation of recommended work</span></div>
+            <div class="check"><b>✓</b><span>Attention to vehicle condition and safety</span></div>
+            <div class="check"><b>✓</b><span>No-pressure, practical communication</span></div>
+            <div class="check"><b>✓</b><span>Maintenance guidance for everyday driving</span></div>
+          </div>
+          <a class="btn" href="#contact">Contact Us</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="why-us">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">Why Choose Us</span>
+          <h2>Built around dependable service.</h2>
+        </div>
+        <div class="why-grid">
+          <div class="why"><h3>Clear Process</h3><p>We explain the issue and the recommended next step in plain language.</p></div>
+          <div class="why"><h3>Quality Focus</h3><p>Each vehicle is approached with care, attention, and practical repair standards.</p></div>
+          <div class="why"><h3>Customer First</h3><p>We aim to make service decisions easier with straightforward communication.</p></div>
+          <div class="why"><h3>Road Ready</h3><p>Our work is focused on helping you maintain safe, reliable transportation.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container">
+        <div class="contact-wrap">
+          <div>
+            <span class="eyebrow">Get In Touch</span>
+            <h2 style="font-size:clamp(2rem,4vw,3rem);line-height:1.05;margin-bottom:14px;">Need help with your vehicle?</h2>
+            <p>Contact Zelda Car Repair to discuss your vehicle, the issue you're experiencing, and the service you may need.</p>
+          </div>
+          <div class="contact-box">
+            <div class="contact-item"><small>Phone</small><strong>[ADD PHONE NUMBER]</strong></div>
+            <div class="contact-item"><small>Email</small><strong>[ADD EMAIL ADDRESS]</strong></div>
+            <div class="contact-item"><small>Location</small><strong>[ADD BUSINESS ADDRESS OR SERVICE AREA]</strong></div>
+            <a class="btn" href="mailto:">Request Service</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer">
+      <div>© 2026 Zelda Car Repair. All rights reserved.</div>
+      <div>Professional automotive repair and maintenance.</div>
+    </div>
+  </footer>
+
+  <script>
+    const menuBtn = document.getElementById('menuBtn');
+    const navMenu = document.getElementById('navMenu');
+
+    menuBtn.addEventListener('click', () => {
+      navMenu.classList.toggle('open');
+      menuBtn.setAttribute('aria-expanded', navMenu.classList.contains('open'));
+    });
+
+    navMenu.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', () => navMenu.classList.remove('open'));
+    });
+  </script>
+</body>
+</html>
